@@ -1,4 +1,4 @@
 requests
-notion-client
+notion-client==2.1.0
 python-dotenv
 retrying
