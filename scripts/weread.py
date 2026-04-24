@@ -222,7 +222,7 @@ def get_sort():
             "direction": "descending",
         }
     ]
-    response = client.databases.query(
+    response = client.databases.query_data_base(
         database_id=database_id, filter=filter, sorts=sorts, page_size=1
     )
     if len(response.get("results")) == 1:
